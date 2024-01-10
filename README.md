@@ -1,5 +1,9 @@
 一、对理论还没有特别熟悉的可以去重温下理论知识：https://zhuanlan.zhihu.com/p/81404580
+
+项目说明：https://zhuanlan.zhihu.com/p/676922786
+
 二、克隆项目，方便对照查阅：对你有帮助的话记得给个星星支持下哦！
+
 本项目主要实现对毫米波雷达的点云跟踪。
 
 ### 4. How to run the code

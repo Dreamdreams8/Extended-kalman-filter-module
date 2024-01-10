@@ -2,11 +2,16 @@
 二、克隆项目，方便对照查阅：对你有帮助的话记得给个星星支持下哦！
 本项目主要实现对毫米波雷达的点云跟踪。
 
-git clone 
-mkdir build && cd build
-cmake .. && make
-# On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
-./ExtendedKF  ../data/obj_pose-laser-radar-synthetic-input.txt ./output.txt
+### 4. How to run the code
+
+1. Clone this repo.
+2. Make a build directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make` 
+   * On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
+4. Run it by either of the following commands: 
+   * `./ExtendedKF  ../data/obj_pose-laser-radar-synthetic-input.txt ./output.txt`
+   * `./ExtendedKF  ../data/sample-laser-radar-measurement-data-1.txt ./output.txt`
+
 cmakelist2及src2是原作者项目的代码，也是简单易懂，这边同时做保留，在此基础上做一个扩展卡尔曼滤波模板，能够快速搭建跟踪滤波功能。
 
 # **Object Tracking with Extended Kalman Filter**
